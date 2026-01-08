@@ -1,0 +1,69 @@
+:root{
+   padding: 0;
+   margin: 0;
+}
+
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+   background-color: blue;
+}
+
+
+.pk-card{
+   width:20em;
+   height: fit-content;
+   background-image: linear-gradient(rgb(168, 56, 56) 5%, rgb(145, 44, 44) );
+   padding: 2em;
+   border-radius: 1em;
+   border: 2px, solid, pink;
+   box-shadow: 5px, 5px,  red;
+}
+
+#pk-title{
+    height: 2rem;
+    width: auto;
+    background-color: red;
+    align-content: end;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pic {
+   width: 20rem;
+   align-content: center;
+   margin: auto;
+   height: 11em;
+   border-radius: 5px;
+   border-left: 5px solid rgb(38, 162, 211);
+   border-bottom: 5px solid rgb(146, 226, 146);
+   border-right: 8px solid rgb(197, 197, 104);
+   border-top: 4px solid rgb(216, 117, 238) ;
+}
+
+#moves_grid {
+   height: 10em;
+   width: auto;
+   border: 10px solid transparent;
+   border-image: url(pk_border.png) 30 round;
+   display: grid;
+   border-radius: 5px;
+   margin-top: 1.5em;
+   display: grid;
+   grid-template-columns: min-content;
+   row-gap: 20px;
+   padding: 2em;
+}
+
+#move {
+   height: 5em;
+   background-color: red
+}
