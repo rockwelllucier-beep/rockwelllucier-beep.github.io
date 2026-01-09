@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 30px;
   background-color: beige;
 }
 
@@ -25,4 +25,40 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+
+.page-card{
+  display: inline-block;
+  height: auto;
+  width: 600px;
+  padding: 30px;
+
+  border-radius: 30px;
+  background-color: pink;
+}
+
+.page-description{
+  width: fit-content;
+}
+
+.page-title{
+  text-align: center;
+  font-size: 2rem;
+
+  background-image: linear-gradient(10deg, lightblue 5%, whitesmoke 30%, rgb(160, 100, 109) 90%);
+  border-radius: 40px;
+  height: 2em;
+  align-content: center;
+}
+
+.page-img{
+  margin: auto;
+  width: fit-content;
+  align-self: center;
+}
+
+#project-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
