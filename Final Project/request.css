@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: teal;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 1.5rem;
+}
+
+form{
+    justify-content: center;
+}
+
+select{
+    font-size: 1.2rem;
+}
+
+input{
+    font-size: 1.2rem;
+}
