@@ -1,7 +1,12 @@
-body {
+main {
   margin: 0;
   padding: 0 30px;
   background-color: beige;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
 }
 
 h2, p {
@@ -62,3 +67,5 @@ ul li a:hover {
   flex-direction: row;
   gap: 20px;
 }
+
+
