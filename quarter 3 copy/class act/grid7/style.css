@@ -1,0 +1,28 @@
+#container{
+    font-size: 100px;
+}
+
+#header{
+    background-color: red;
+    z-index: 0;
+    top: 0;
+    flex-direction: row;
+    min-height: 10vh;
+    position: sticky;
+}
+
+#middle{
+    background-color: yellow;
+    z-index: 1;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+#footer{
+    background-color: pink;
+    z-index: 2;
+    min-height: 10vh;
+    flex-direction: row;
+    position: sticky;
+    bottom: 0;
+}

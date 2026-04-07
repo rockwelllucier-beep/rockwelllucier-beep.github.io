@@ -1,0 +1,27 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   background-color: blue;
+   align-items: center;
+   animation-name: opacity;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes opacity{
+    0%, 100%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+}

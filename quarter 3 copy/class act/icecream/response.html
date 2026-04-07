@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Tuesday Work</h1>
+    <ol>
+    <li>
+        A classic page with a top header, bottom footer, and three columns (left nav, center content, right sidebar) that stays stuck to the bottom, usually built with Flexbox.
+    </li>
+    <li>
+        You make the body a flex container (column), then set the main content area to flex: 1 to fill all space, pushing the footer down. Using min-height: 100svh (small viewport height) is good because it ignores mobile address bars
+    </li>
+    <li>
+        It makes all cards in a row the same height as the tallest one automatically, so they look even.
+    </li>
+    <li>
+        flex: 1 1 0; Grows (1), Shrinks (1), and starts at 0px basis. Its for equal sized items that fill the space.
+        flex: 0 0 200px; No grow (0), No shrink (0), and starts at 200px. Its for fixed size sidebars that dont move.
+    </li>
+    <li>
+        It breaks visual order for people using keyboard navigation because they will follow the HTML code, not what they see on screen. It also ruins screen readers for blind users because the content is read in the wrong order. 
+    </li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,61 @@
+#egg{
+    height: 100px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: rgb(222, 175, 105);
+    box-shadow: 5px 5px rgb(121, 90, 44);
+}
+
+#container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#star{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+
+}
+
+#dot{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: -60px;
+    top: -30px;
+}
+
+#dot2{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(153, 63, 63);
+    border-radius: 50%;
+    position: relative;
+    left: -80px;
+    top: 0px;
+}
+
+#dot3{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(25, 140, 33);
+    border-radius: 50%;
+    position: relative;
+    left: -50px;
+    top: -20px;
+}
+
+#dot4{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(82, 35, 164);
+    border-radius: 50%;
+    position: relative;
+    left: -80px;
+    top: 20px;
+}

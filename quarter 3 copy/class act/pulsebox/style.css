@@ -1,0 +1,40 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#box{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 50%;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+#box2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: -25%;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+    0%,100%{
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+    }
+}

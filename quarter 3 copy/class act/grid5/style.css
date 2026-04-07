@@ -1,0 +1,40 @@
+#container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "header divider header2"
+        "divider2 divider2 divider2"
+        "header3 divider header4";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+
+#header{
+    grid-area: header;
+    background-color: red;
+}
+
+#header2{
+    grid-area: header2;
+    background-color: teal;
+}
+
+#divider{
+    grid-area: divider;
+    background-color: yellow;
+}
+
+#header3{
+    grid-area: header3;
+    background-color: red;
+}
+
+#header4{
+    grid-area: header4;
+    background-color: teal;
+}
+
+#divider2{
+    grid-area: divider2;
+    background-color: yellow;
+}

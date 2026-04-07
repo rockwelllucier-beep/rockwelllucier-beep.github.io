@@ -1,0 +1,43 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    "t2 t2 t2"
+    "t3 t3 t3"
+    "t1 t1 t1";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    min-height: 100vh;
+}
+
+#t1{
+    grid-area: t1;
+    background-color: red;
+}
+
+#t2{
+    grid-area: t2;
+    background-color: blue;
+}
+
+#t3{
+    grid-area: t3;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: subgrid;
+    padding: 30px;
+    grid-template-areas: "x1 x1"
+    "x2 x2";
+    
+}
+
+.x1{
+    
+    grid-area: x1;
+    background-color: pink;
+}
+
+
+.x2{
+    grid-area: x2;
+    background-color: green;
+}

@@ -1,0 +1,43 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'left middle right'
+    'left mid2 right'
+    'footer footer footer';
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-columns: 150px 1fr 150px;
+    min-height: 100vh;
+}
+
+#head{
+    grid-area: header;
+    background-color: beige;
+    height: 100px;
+}
+
+#left{
+    grid-area: left;
+    background-color: red;
+}
+
+#right{
+    grid-area: right;
+    background-color: red;
+}
+
+#middle{
+    grid-area: middle;
+    background-color: blue;
+}
+
+#foot{
+    grid-area: footer;
+    background-color: aqua;
+    height: 100px;
+}
+
+#mid2{
+    grid-area: mid2;
+    background-color: blueviolet;
+}

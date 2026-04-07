@@ -1,0 +1,106 @@
+#box{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+#clicked{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.clicked:hover{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0%, 100%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+}
+
+#box2{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+
+#clicked2{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+
+.clicked2:hover{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#box3{
+    top: 60%;
+    left: 0%;
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#clicked3{
+    top: 60%;
+    left: 0%;
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.clicked3:hover{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#box4{
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid black;
+    left: 90%;
+    top: 90%;
+    position: absolute;
+}
+
+#clicked4{
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid black;
+    top: 90%;
+    left: 90%;
+    position: absolute;
+}
+
+.clicked4:hover{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

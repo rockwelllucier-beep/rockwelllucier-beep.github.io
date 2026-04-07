@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: movebox;
+}
+
+.clicked{
+    animation-name: movebox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+@keyframes movebox {
+    0% {
+        left: 0px; top: 0px;
+    }
+    25%{
+        left: 100px; top: 0px;
+    }
+    50%{
+        left: 100px; top: 100px;
+    }
+    75%{
+        left: 0px; top: 100px;
+    }
+    100%{
+        left: 0px; top: 0px;
+    }
+}

@@ -1,0 +1,32 @@
+.box{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    margin-top: 200px;
+}
+
+#pause{
+    margin-top: 210px;
+}
+
+@keyframes slide{
+    0%, 100%{
+        left: 0px;
+    }
+    50%{
+        left: 100px;
+    }
+}
