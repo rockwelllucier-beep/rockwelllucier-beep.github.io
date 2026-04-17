@@ -1,0 +1,28 @@
+#shape{
+    
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid;
+    border-right: 200px solid transparent;
+    animation-name: transforming;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes transforming{
+    0%,100%{
+    border-radius: 0%;
+    }
+    25%{
+    background-color: black;
+    }
+    75%{
+        border-radius: 50%;
+        background-color: black;
+    }
+}
