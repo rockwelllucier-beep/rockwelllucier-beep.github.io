@@ -13,23 +13,29 @@ h2, p {
   margin: 10px;
 }
 
-ul {
+
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #333333;
   display: flex;
+  position: fixed;
+  width: 100dvw;
+  top: 0%;
+  justify-content: center;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(33, 226, 49);
   padding: 14px 16px;
   text-decoration: none;
+  left: 20%;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #484848;
 }
 
 .page-card{
@@ -40,10 +46,6 @@ ul li a:hover {
 
   border-radius: 30px;
   background-color: pink;
-}
-
-.page-description{
-  width: fit-content;
 }
 
 .page-title{
@@ -66,44 +68,4 @@ ul li a:hover {
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
-
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdownstuff {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdownstuff a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdownstuff a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdownstuff {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
